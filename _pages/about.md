@@ -25,5 +25,5 @@ and
 
 My interests are mainly in mathematics physics, nonlinear physics, complex system, and machine learning.
 I am particularly interested in various emergent phenomena and nonlinear dynamics.
-I am also a enthusiast of the philosophy of science, math and physics.
+I am also an enthusiast of the philosophy of science, math and physics.
 Furthermore, I am deeply concerned about the safety risks posed by the hype, abuse, blind faith, and dogmatic approaches surrounding machine learning.
