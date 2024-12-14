@@ -49,48 +49,47 @@
 }
 
 @InProceedings{10.1007/978-3-031-72114-4_64,
-author="Li, Liu
-and Wang, Hanchun
-and Baugh, Matthew
-and Ma, Qiang
-and Zhang, Weitong
-and Ouyang, Cheng
-and Rueckert, Daniel
-and Kainz, Bernhard",
-title="Universal Topology Refinement for Medical Image Segmentation with Polynomial Feature Synthesis",
-booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024",
-abbr={MICCAI 2024},
-year="2024",
-publisher="Springer Nature Switzerland",
-address="Cham",
-pages="670--680",
-abstract="Although existing medical image segmentation methods provide impressive pixel-wise accuracy, they often neglect topological correctness, making their segmentations unusable for many downstream tasks. One option is to retrain such models whilst including a topology-driven loss component. However, this is computationally expensive and often impractical. A better solution would be to have a versatile plug-and-play topology refinement method that is compatible with any domain-specific segmentation pipeline. Directly training a post-processing model to mitigate topological errors often fails as such models tend to be biased towards the topological errors of a target segmentation network. The diversity of these errors is confined to the information provided by a labelled training set, which is especially problematic for small datasets. Our method solves this problem by training a model-agnostic topology refinement network with synthetic segmentations that cover a wide variety of topological errors. Inspired by the Stone-Weierstrass theorem, we synthesize topology-perturbation masks with randomly sampled coefficients of orthogonal polynomial bases, which ensures a complete and unbiased representation. Practically, we verified the efficiency and effectiveness of our methods as being compatible with multiple families of polynomial bases, and show evidence that our universal plug-and-play topology refinement network outperforms both existing topology-driven learning-based and post-processing methods. We also show that combining our method with learning-based models provides an effortless add-on, which can further improve the performance of existing approaches.",
-isbn="978-3-031-72114-4"
+    author={Li, Liu
+    and Wang, Hanchun
+    and Baugh, Matthew
+    and Ma, Qiang
+    and Zhang, Weitong
+    and Ouyang, Cheng
+    and Rueckert, Daniel
+    and Kainz, Bernhard},
+    title={Universal Topology Refinement for Medical Image Segmentation with Polynomial Feature Synthesis},
+    booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+    abbr={MICCAI 2024},
+    year={2024},
+    doi={10.1007/978-3-031-72114-4_64},
+    publisher={Springer Nature Switzerland},
+    pages={670--680},
+    abstract={Although existing medical image segmentation methods provide impressive pixel-wise accuracy, they often neglect topological correctness, making their segmentations unusable for many downstream tasks. One option is to retrain such models whilst including a topology-driven loss component. However, this is computationally expensive and often impractical. A better solution would be to have a versatile plug-and-play topology refinement method that is compatible with any domain-specific segmentation pipeline. Directly training a post-processing model to mitigate topological errors often fails as such models tend to be biased towards the topological errors of a target segmentation network. The diversity of these errors is confined to the information provided by a labelled training set, which is especially problematic for small datasets. Our method solves this problem by training a model-agnostic topology refinement network with synthetic segmentations that cover a wide variety of topological errors. Inspired by the Stone-Weierstrass theorem, we synthesize topology-perturbation masks with randomly sampled coefficients of orthogonal polynomial bases, which ensures a complete and unbiased representation. Practically, we verified the efficiency and effectiveness of our methods as being compatible with multiple families of polynomial bases, and show evidence that our universal plug-and-play topology refinement network outperforms both existing topology-driven learning-based and post-processing methods. We also show that combining our method with learning-based models provides an effortless add-on, which can further improve the performance of existing approaches.},
 }
 
 
 @article{SUN2024104091,
-abbr={CAG},
-title = {Executing realistic earthquake simulations in unreal engine with material calibration},
-journal = {Computers & Graphics},
-volume = {124},
-pages = {104091},
-year = {2024},
-issn = {0097-8493},
-doi = {https://doi.org/10.1016/j.cag.2024.104091},
-url = {https://www.sciencedirect.com/science/article/pii/S0097849324002267},
-author = {Yitong Sun and Hanchun Wang and Zhejun Zhang and Cyriel Diels and Ali Asadipour},
-keywords = {Earthquake, Simulation, Unreal engine, Synthetic data generation, Urban disaster modeling},
-abstract = {Earthquakes significantly impact societies and economies, underscoring the need for effective search and rescue strategies. As AI and robotics increasingly support these efforts, the demand for high-fidelity, real-time simulation environments for training has become pressing. Earthquake simulation can be considered as a complex system. Traditional simulation methods, which primarily focus on computing intricate factors for single buildings or simplified architectural agglomerations, often fall short in providing realistic visuals and real-time structural damage assessments for urban environments. To address this deficiency, we introduce a real-time, high visual fidelity earthquake simulation platform based on the Chaos Physics System in Unreal Engine, specifically designed to simulate the damage to urban buildings. Initially, we use a genetic algorithm to calibrate material simulation parameters from Ansys into the Unreal Engine’s fracture system, based on real-world test standards. This alignment ensures the similarity of results between the two systems while achieving real-time capabilities. Additionally, by integrating real earthquake waveform data, we improve the simulation’s authenticity, ensuring it accurately reflects historical events. All functionalities are integrated into a visual user interface, enabling zero-code operation, which facilitates testing and further development by cross-disciplinary users. We verify the platform’s effectiveness through three AI-based tasks: similarity detection, path planning, and image segmentation. This paper builds upon the preliminary earthquake simulation study we presented at IMET 2023, with significant enhancements, including improvements to the material calibration workflow and the method for binding building foundations.}
+    abbr={CAG},
+    title={Executing realistic earthquake simulations in unreal engine with material calibration},
+    journal={Computers & Graphics},
+    volume={124},
+    pages={104091},
+    year={2024},
+    issn={0097-8493},
+    doi={https://doi.org/10.1016/j.cag.2024.104091},
+    url={https://www.sciencedirect.com/science/article/pii/S0097849324002267},
+    author={Yitong Sun and Hanchun Wang and Zhejun Zhang and Cyriel Diels and Ali Asadipour},
+    keywords={Earthquake, Simulation, Unreal engine, Synthetic data generation, Urban disaster modeling},
+    abstract={Earthquakes significantly impact societies and economies, underscoring the need for effective search and rescue strategies. As AI and robotics increasingly support these efforts, the demand for high-fidelity, real-time simulation environments for training has become pressing. Earthquake simulation can be considered as a complex system. Traditional simulation methods, which primarily focus on computing intricate factors for single buildings or simplified architectural agglomerations, often fall short in providing realistic visuals and real-time structural damage assessments for urban environments. To address this deficiency, we introduce a real-time, high visual fidelity earthquake simulation platform based on the Chaos Physics System in Unreal Engine, specifically designed to simulate the damage to urban buildings. Initially, we use a genetic algorithm to calibrate material simulation parameters from Ansys into the Unreal Engine’s fracture system, based on real-world test standards. This alignment ensures the similarity of results between the two systems while achieving real-time capabilities. Additionally, by integrating real earthquake waveform data, we improve the simulation’s authenticity, ensuring it accurately reflects historical events. All functionalities are integrated into a visual user interface, enabling zero-code operation, which facilitates testing and further development by cross-disciplinary users. We verify the platform’s effectiveness through three AI-based tasks: similarity detection, path planning, and image segmentation. This paper builds upon the preliminary earthquake simulation study we presented at IMET 2023, with significant enhancements, including improvements to the material calibration workflow and the method for binding building foundations.}
 }
 
 @article{Ji2025SEAMS,
-abbr={SEAMS 2025},
-title = {Robust Probabilistic Model Checking with Continuous Reward Domains},
-author = "Ji, Xiaotong
-and Wang, Hanchun
-and Filieri, Antonio
-and Epifani, Ilenia"
-journal = {SEAMS 2025},
-year = {2025},
+    abbr={SEAMS 2025},
+    title={Robust Probabilistic Model Checking with Continuous Reward Domains},
+    author="Ji, Xiaotong
+    and Wang, Hanchun
+    and Filieri, Antonio
+    and Epifani, Ilenia"
+    journal={20th International Conference on Software Engineering for Adaptive and Self-Managing Systems},
+    year={2024},
 }
