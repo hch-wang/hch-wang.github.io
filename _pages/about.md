@@ -19,7 +19,7 @@ I am a PhD student at [Soft Matter Group, DAMTP, University of Cambridge](https:
 conducting my research under the supervision of [Prof. Michael Cates](https://www.maths.cam.ac.uk/person/mec22) and [Dr. Ronojoy Adhikari](https://www.maths.cam.ac.uk/person/ra413).
 
 
-Before I start my PhD, I had the honor of working under [Prof. Darry Holm](https://www.ma.imperial.ac.uk/~dholm/) at Imperial College London. 
+Before I start my PhD, I had the honor of working under [Prof. Darryl Holm](https://www.ma.imperial.ac.uk/~dholm/) at Imperial College London. 
 During my study, I was privileged to be advised by
 [Prof. Boris Khesin](http://www.math.toronto.edu/khesin/) at University of Toronto, 
 and
