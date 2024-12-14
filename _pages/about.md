@@ -16,7 +16,7 @@ social: false # includes social icons at the bottom of the page
 ---
 
 I am a PhD student at [Soft Matter Group, DAMTP, University of Cambridge](https://www.damtp.cam.ac.uk/research/softmatter/index).
-conducting my research under the supervision of [Prof. Michael Cates](https://www.maths.cam.ac.uk/person/mec22) and [Dr. Ronojoy Adhikari](https://www.maths.cam.ac.uk/person/ra413).
+conducting my research under the supervision of [Prof. Michael Cates](https://www.maths.cam.ac.uk/person/mec22) and [Prof. Ronojoy Adhikari](https://www.maths.cam.ac.uk/person/ra413).
 
 
 Before I start my PhD, I had the honor of working with [Prof. Darryl Holm](https://www.ma.imperial.ac.uk/~dholm/) at Imperial College London on topics in mathematics physics.
