@@ -1,8 +1,8 @@
 ---
 layout: page
-title: research
-permalink: /research/
-description: A growing collection of cool projects.
+title: demos
+permalink: /demos/
+description: A growing collection of demos for beginners who wants to enter the field.
 nav: true
 nav_order: 3
 display_categories: [work, fun]

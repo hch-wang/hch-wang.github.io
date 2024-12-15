@@ -16,10 +16,14 @@ social: false # includes social icons at the bottom of the page
 ---
 
 I am a PhD student at [Soft Matter Group, DAMTP, University of Cambridge](https://www.damtp.cam.ac.uk/research/softmatter).
-conducting my research under the supervision of [Prof. Michael Cates](https://www.maths.cam.ac.uk/person/mec22) and [Prof. Ronojoy Adhikari](https://www.maths.cam.ac.uk/person/ra413).
+conducting my research under the supervision of [Prof. Ronojoy Adhikari](https://www.maths.cam.ac.uk/person/ra413) and  
+[Prof. Michael Cates](https://www.maths.cam.ac.uk/person/mec22) on morphology and phase separation in soft matter physics.
 
 
-Before I start my PhD, I had the honor of working with [Prof. Darryl Holm](https://www.ma.imperial.ac.uk/~dholm/) at Imperial College London on topics in mathematics physics.
+
+
+Before I start my PhD, I had the honor of working with [Prof. Darryl Holm](https://www.ma.imperial.ac.uk/~dholm/) at 
+Imperial College London on various topics in mathematics physics and geometric mechanics.
 
 During my study, I was privileged to be advised by
 [Prof. Boris Khesin](http://www.math.toronto.edu/khesin/) at University of Toronto, 
@@ -28,6 +32,8 @@ and
 
 My interests are mainly in mathematics physics, complex system, and machine learning.
 I am particularly interested in various emergent phenomena and nonlinear dynamics.
-I am also an enthusiast of the philosophy of science, math and physics.
+I am also an enthusiast of the philosophy of science/math/physics.
 
-Furthermore, I am deeply concerned about the safety risks posed by the hype, abuse, and dogmatic approaches surrounding machine learning.
+Furthermore, I am deeply concerned about the safety risks posed by the hype, abuse, and dogmatic approaches 
+surrounding machine learning.
+
