@@ -640,3 +640,7 @@ jsonresume:
   - languages
   - interests
   - references
+
+link_checker:
+  ignore_urls:
+    - "https://www.damtp.cam.ac.uk/research/softmatter"
