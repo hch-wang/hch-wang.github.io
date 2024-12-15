@@ -22,7 +22,7 @@ category: work
 ## Summary
 
 <a id="download code" href="https://raw.githubusercontent.com/hch-wang/hch-wang.github.io/refs/heads/master/assets/html/goldenHydro_web.html"> Download Code</a>
-[Code](/assets/html/goldenHydro_web.html)
+[Notebook](/assets/html/goldenHydro_web.html)
 
 [Preview Version](http://www.math.toronto.edu/khesin/papers/goldenhydroTMIN.pdf)
 [Published Version](https://link.springer.com/article/10.1007/s00283-021-10099-1)
