@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a PhD student at [Soft Matter Group, DAMTP, University of Cambridge](https://www.damtp.cam.ac.uk/research/softmatter/index).
+I am a PhD student at [Soft Matter Group, DAMTP, University of Cambridge](https://www.damtp.cam.ac.uk/research/softmatter).
 conducting my research under the supervision of [Prof. Michael Cates](https://www.maths.cam.ac.uk/person/mec22) and [Prof. Ronojoy Adhikari](https://www.maths.cam.ac.uk/person/ra413).
 
 
