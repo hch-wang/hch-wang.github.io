@@ -2,7 +2,7 @@
 layout: page
 title: demos
 permalink: /demos/
-description: A growing collection of demos written for beginners looking to enter the field.
+description: A growing collection of demos with many figures written for beginners looking to enter the field.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
