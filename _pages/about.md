@@ -16,7 +16,7 @@ social: false # includes social icons at the bottom of the page
 ---
 
 I am a PhD student at [Soft Matter Group, DAMTP, University of Cambridge](https://www.damtp.cam.ac.uk/research/softmatter).
-conducting my research under the supervision of [Prof. Ronojoy Adhikari](https://www.maths.cam.ac.uk/person/ra413) and [Prof. Michael Cates](https://www.maths.cam.ac.uk/person/mec22) on morphology and phase separation in soft matter physics.
+conducting my research under the supervision of [Prof. Michael Cates](https://www.maths.cam.ac.uk/person/mec22) and [Prof. Ronojoy Adhikari](https://www.maths.cam.ac.uk/person/ra413) on morphology and phase separation in soft matter physics.
 
 My interests are mainly in mathematics physics, complex system, and machine learning.
 I am particularly interested in various emergent phenomena and nonlinear dynamics.
