@@ -16,8 +16,11 @@ social: false # includes social icons at the bottom of the page
 ---
 
 I am a PhD student at [Soft Matter Group, DAMTP, University of Cambridge](https://www.damtp.cam.ac.uk/research/softmatter).
-conducting my research under the supervision of [Prof. Ronojoy Adhikari](https://www.maths.cam.ac.uk/person/ra413) and [Prof. Michael Cates](https://www.maths.cam.ac.uk/person/mec22) on morphology and phase separation in soft matter physics and machine learning.
+conducting my research under the supervision of [Prof. Ronojoy Adhikari](https://www.maths.cam.ac.uk/person/ra413) and [Prof. Michael Cates](https://www.maths.cam.ac.uk/person/mec22) on morphology and phase separation in soft matter physics.
 
+My interests are mainly in mathematics physics, complex system, and machine learning.
+I am particularly interested in various emergent phenomena and nonlinear dynamics.
+I am also an enthusiast of the philosophy of science, math, and physics.
 
 ---
 
@@ -33,10 +36,6 @@ and
 [Dr. Thibault Bertrand](https://thibaultbertrand.com/) at Imperial College London.
 
 ---
-
-My interests are mainly in mathematics physics, complex system, and machine learning.
-I am particularly interested in various emergent phenomena and nonlinear dynamics.
-I am also an enthusiast of the philosophy of science, math, and physics.
 
 Furthermore, I am concerned about the safety risks posed by the cult, hype, abuse, and dogmatic approaches 
 surrounding machine learning in a larger scope of society and timescale.
