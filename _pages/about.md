@@ -19,6 +19,7 @@ I am a PhD student at [Soft Matter Group, DAMTP, University of Cambridge](https:
 conducting my research under the supervision of [Prof. Ronojoy Adhikari](https://www.maths.cam.ac.uk/person/ra413) and [Prof. Michael Cates](https://www.maths.cam.ac.uk/person/mec22) on morphology and phase separation in soft matter physics and machine learning.
 
 
+---
 
 Before I start my PhD, I had the honor of working with [Prof. Darryl Holm](https://www.ma.imperial.ac.uk/~dholm/) at 
 Imperial College London on various topics in mathematics physics and geometric mechanics.
@@ -31,12 +32,14 @@ During my study, I was privileged to be advised by
 and
 [Dr. Thibault Bertrand](https://thibaultbertrand.com/) at Imperial College London.
 
+---
+
 My interests are mainly in mathematics physics, complex system, and machine learning.
 I am particularly interested in various emergent phenomena and nonlinear dynamics.
 I am also an enthusiast of the philosophy of science, math, and physics.
 
 Furthermore, I am concerned about the safety risks posed by the cult, hype, abuse, and dogmatic approaches 
-surrounding machine learning. 
+surrounding machine learning in a larger scope of society and timescale.
 
 You may want to read more about talks from Geoffrey Hinton and Ilya Sutskever. 
 
