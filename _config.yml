@@ -252,7 +252,6 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-seo-tag
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
