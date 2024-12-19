@@ -16,7 +16,7 @@ social: false # includes social icons at the bottom of the page
 ---
 
 I am a PhD student at [Soft Matter Group, DAMTP, University of Cambridge](https://www.damtp.cam.ac.uk/research/softmatter).
-conducting my research under the supervision of [Prof. Ronojoy Adhikari](https://www.maths.cam.ac.uk/person/ra413) and [Prof. Michael Cates](https://www.maths.cam.ac.uk/person/mec22) on morphology and phase separation in soft matter physics.
+conducting my research under the supervision of [Prof. Ronojoy Adhikari](https://www.maths.cam.ac.uk/person/ra413) and [Prof. Michael Cates](https://www.maths.cam.ac.uk/person/mec22) on morphology and phase separation in soft matter physics and machine learning.
 
 
 
@@ -35,6 +35,10 @@ My interests are mainly in mathematics physics, complex system, and machine lear
 I am particularly interested in various emergent phenomena and nonlinear dynamics.
 I am also an enthusiast of the philosophy of science, math, and physics.
 
-Furthermore, I am deeply concerned about the safety risks posed by the cult, hype, abuse, and dogmatic approaches 
-surrounding machine learning. You may want to read more from talks from Geoffrey Hinton and Ilya Sutskever. [(External Paper) Managing extreme AI risks amid rapid progress](https://www.science.org/doi/abs/10.1126/science.adn0117)
+Furthermore, I am concerned about the safety risks posed by the cult, hype, abuse, and dogmatic approaches 
+surrounding machine learning. 
+
+You may want to read more about talks from Geoffrey Hinton and Ilya Sutskever. 
+
+[(External Paper) Managing extreme AI risks amid rapid progress](https://www.science.org/doi/abs/10.1126/science.adn0117)
 
