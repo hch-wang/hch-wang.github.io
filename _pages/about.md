@@ -23,15 +23,18 @@ conducting my research under the supervision of [Prof. Ronojoy Adhikari](https:/
 Before I start my PhD, I had the honor of working with [Prof. Darryl Holm](https://www.ma.imperial.ac.uk/~dholm/) at 
 Imperial College London on various topics in mathematics physics and geometric mechanics.
 
-Before that, during my study, I was privileged to be advised by
+Before that, I finished a Master's degree - Applied Mathematics at Imperial College London, 
+and a Bachelor degree in three Majors - Mathematics, Physics, Computer Science at the University of Toronto.
+
+During my study, I was privileged to be advised by
 [Prof. Boris Khesin](http://www.math.toronto.edu/khesin/) at University of Toronto, 
 and
 [Dr. Thibault Bertrand](https://thibaultbertrand.com/) at Imperial College London.
 
 My interests are mainly in mathematics physics, complex system, and machine learning.
 I am particularly interested in various emergent phenomena and nonlinear dynamics.
-I am also an enthusiast of the philosophy of science/math/physics.
+I am also an enthusiast of the philosophy of science, math, and physics.
 
-Furthermore, I am deeply concerned about the safety risks posed by the hype, abuse, and dogmatic approaches 
-surrounding machine learning.
+Furthermore, I am deeply concerned about the safety risks posed by the cult, hype, abuse, and dogmatic approaches 
+surrounding machine learning. You may want to read more from talks from Geoffrey Hinton and Ilya Sutskever. [(External Paper) Managing extreme AI risks amid rapid progress](https://www.science.org/doi/abs/10.1126/science.adn0117)
 

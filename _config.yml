@@ -8,9 +8,9 @@ middle_name:
 last_name: Wang
 email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Hanchun Wang's personal website.
+  Hanchun Wang personal website.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords:
 lang: en, cn # the language of your site (for example: en, fr, cn, ru, etc.)
 icon:
@@ -93,7 +93,7 @@ osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: Hanchun-Wang # your profile on ResearchGate
 scholar_userid: dZChwrQAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
@@ -252,6 +252,7 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
+  - jekyll-seo-tag
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
