@@ -41,7 +41,5 @@ I am also an enthusiast of the philosophy of science, math, and physics.
 Furthermore, I am concerned about the safety risks posed by the cult, hype, abuse, and dogmatic approaches 
 surrounding machine learning in a larger scope of society and timescale.
 
-You may want to read more about talks from Geoffrey Hinton and Ilya Sutskever. 
-
-[(External Paper) Managing extreme AI risks amid rapid progress](https://www.science.org/doi/abs/10.1126/science.adn0117)
+You may want to read more about talks from Geoffrey Hinton and Ilya Sutskever, and [(External Paper) Managing extreme AI risks amid rapid progress](https://www.science.org/doi/abs/10.1126/science.adn0117)
 
