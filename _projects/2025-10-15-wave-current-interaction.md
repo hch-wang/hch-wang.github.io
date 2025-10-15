@@ -7,7 +7,7 @@ importance: 1
 category: work
 ---
 
-# Burgers-swept KdV Solution
+# Burgers-swept KdV Equation: Soliton and Bore Interaction in Shallow Water
 
 [Paper Link](https://arxiv.org/abs/2505.17026)
 
