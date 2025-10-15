@@ -10,12 +10,28 @@ category: work
 # import all gifs from assets/img/posts/20251015/
 
 <div class="row">
-  {% assign gif_files = site.static_files | where: "path", "contains", "assets/img/posts/20251015/" %}
-  {% for file in gif_files %}
-    {% if file.extname == ".gif" %}
-      <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path=file.path title="example image" class="img-fluid rounded z-depth-1" %}
-      </div>
-    {% endif %}
-  {% endfor %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/posts/20251015/1_compound_soliton_emerge.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/posts/20251015/2_gaussian_split.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/posts/20251015/3_three_B_KdV_soliton.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/posts/20251015/4_refraction_1.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/posts/20251015/5_refraction_2.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/posts/20251015/6_reflection.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/posts/20251015/7_soliton_fusion_1.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/posts/20251015/8_soliton_fusion_2.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
