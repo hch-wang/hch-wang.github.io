@@ -8,6 +8,9 @@ category: work
 ---
 
 # Burgers-swept KdV Solution
+
+[Paper Link](https://arxiv.org/abs/2505.17026)
+
 Burgers: $\quad u_t+3 u u_x \quad=-v \partial_x\left(3 v^2+\gamma v_{x x}\right)$, $\mathrm{KdV}: \quad v_t+6 v v_x+\gamma v_{x x x}=-\partial_x(u v)$.
 
 Gardner: $\quad v_t+6 v v_x+\frac{3}{2} v^2 v_x+\gamma v_{x x x}=-\partial_x(v m)$,
