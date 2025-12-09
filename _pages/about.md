@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a PhD student at [Soft Matter Group, DAMTP, University of Cambridge](https://www.damtp.cam.ac.uk/research/softmatter).
+I am a postgraduate student at [Soft Matter Group, DAMTP, University of Cambridge](https://www.damtp.cam.ac.uk/research/softmatter).
 conducting my research under the supervision of [Prof. Michael Cates](https://www.maths.cam.ac.uk/person/mec22) and [Prof. Ronojoy Adhikari](https://www.maths.cam.ac.uk/person/ra413) on non-equilibrium statistical physics and morphology.
 
 My interests are mainly in mathematics physics, complex system, and machine learning.
