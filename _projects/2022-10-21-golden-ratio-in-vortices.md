@@ -6,19 +6,6 @@ img: assets/img/posts/20221021/front.png
 importance: 1
 category: work
 ---
-    
-    ---
-    layout: post
-    read_time: true
-    show_date: true
-    title: "Golden Ratio in Vortices"
-    date: 2022-10-21
-    img: posts/20221021/point_vortex.jpg
-    tags: [Hydrodynamics, Dynamical System, Scientific Computation]
-    author: Hanchun Wang
-    description: "point vortex on the half plane"
-    ---
-    
 ## Summary
 
 <a id="download code" href="https://raw.githubusercontent.com/hch-wang/hch-wang.github.io/refs/heads/master/assets/html/goldenHydro_web.html"> Download Code</a>

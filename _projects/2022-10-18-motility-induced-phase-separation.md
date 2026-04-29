@@ -7,22 +7,6 @@ importance: 2
 category: work
 mathjax: yes
 ---
-    
-    ---
-    layout: post
-    read_time: true
-    show_date: true
-    title:  Motility Induced Phase Separation
-    date:   2022-10-18 13:32:20 -0000
-    description: Motility Induced Phase Separation in Active Brownian Particle System.
-    img: posts/20221018/detail.png
-    tags: [Stochastic Process, Scientific Computation]
-    author: Hanchun Wang
-    category: project
-    github:  
-    mathjax: yes
-    ---
-
 ## Summary
 In this [Active Brownian Particle](https://en.wikipedia.org/wiki/Active_Brownian_particle) system, 
 particles will aggregate without any attracting force inbetween.
