@@ -1,17 +1,17 @@
 ---
 layout: page
 title: Motility Induced Phase Separation
-description: How do particles aggregate without any attracting force?
+description: How do particles aggregate without any attractive force?
 img: assets/img/posts/20221018/detail.png
 importance: 2
 category: work
 mathjax: yes
 ---
 ## Summary
-In this [Active Brownian Particle](https://en.wikipedia.org/wiki/Active_Brownian_particle) system, 
-particles will aggregate without any attracting force inbetween.
+In this [Active Brownian Particle](https://en.wikipedia.org/wiki/Active_Brownian_particle) system,
+particles aggregate without any attractive force in between.
 
-**Vidoes of my results in Motility Induced Phase Separation:**
+**Videos of my results in Motility Induced Phase Separation:**
 
 MIPS cluster formation [YouTube](https://youtu.be/Mi5pbJ8jI4s) <br>
 MIPS cluster merging [YouTube](https://youtube.com/shorts/JxTgIvu2Sv8?feature=share) <br>
@@ -39,7 +39,7 @@ MIPS cluster dissolution [YouTube](https://youtube.com/shorts/m9tW2ULBz_s?featur
 
 
 ## Introduction
-From [cytoskeletal filaments](https://en.wikipedia.org/wiki/Stromatolite) and bacterial aggregation to 
+From [cytoskeletal filaments](https://en.wikipedia.org/wiki/Cytoskeleton) and bacterial aggregation to
 the [birds’ flock](https://en.wikipedia.org/wiki/Flocking_(behavior)) and fish school, biological agents consume energy from the environment to sustain different
 kinds of activities. The activity provides agents the capacity to have steady states
 away from the equilibrium. This capacity against the 

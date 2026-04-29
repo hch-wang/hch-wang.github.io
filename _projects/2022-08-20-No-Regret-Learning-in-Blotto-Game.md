@@ -8,8 +8,7 @@ category: work
 mathjax: yes
 ---
 ## Summary
-The work based on the paper
-
+This project explores regret minimization in the Colonel Blotto game, illustrating how no-regret learning can guide players toward better resource-allocation strategies over repeated play.
 
 ## Introduction
 A Colonel [Blotto game](https://en.wikipedia.org/wiki/Blotto_game) is a type of two-person constant-sum game in
