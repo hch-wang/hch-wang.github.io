@@ -27,8 +27,9 @@ I am also an enthusiast of the philosophy of science, math, and physics.
 Before I start my PhD, I had the honor of working with [Prof. Darryl Holm](https://www.ma.imperial.ac.uk/~dholm/) at 
 Imperial College London on various topics in mathematics physics and geometric mechanics.
 
-Before that, I finished a Master's degree - Applied Mathematics at Imperial College London, 
-and a Bachelor degree in Majors of Mathematics, Physics, Computer Science at the University of Toronto.
+Before that, I completed an MSc in Applied Mathematics at Imperial College London.
+I earned my undergraduate degree at the University of Toronto, where I completed the Mathematics and Physics Specialist program
+(an intensive double major), alongside an additional Major in Computer Science.
 
 During my study, I was privileged to be advised by
 [Prof. Boris Khesin](http://www.math.toronto.edu/khesin/) at University of Toronto, 
