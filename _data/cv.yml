@@ -1,7 +1,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: Univeristy of Cambridge
+    - title: University of Cambridge
       year: ongoing
       description:
         - PhD in Applied Mathematics and Theoretical Physics
@@ -13,7 +13,7 @@
 
     - title: University of Toronto
       description:
-        - Specialist in Mathematics Physics (enhanced double Major)
+        - Specialist in Mathematics and Physics (enhanced double major)
         - Major in Computer Science
       year: 2021
 
@@ -27,7 +27,7 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Mathematics Physics
+    - title: Mathematical Physics
       items:
         - Non-equilibrium Statistical Mechanics
         - Geometric Mechanics

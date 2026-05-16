@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Regret Minimization in Blotto Game
-description: "How to learn from the failure?"
+description: "How can we learn from failure?"
 img: assets/img/posts/20220820/line8.png
 importance: 3
 category: work
