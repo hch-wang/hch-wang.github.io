@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Motility Induced Phase Separation
-description: How do particles aggregate without any attractive force?
+title: Motility-Induced Phase Separation
+description: How self-propelled particles aggregate without attractive forces.
 img: assets/img/posts/20221018/detail.png
 importance: 2
-category: work
+category: research
 mathjax: yes
 ---
 ## Summary
-In this [Active Brownian Particle](https://en.wikipedia.org/wiki/Active_Brownian_particle) system,
-particles aggregate without any attractive force in between.
+This project studies how [active Brownian particles](https://en.wikipedia.org/wiki/Active_Brownian_particle)
+aggregate even when no attractive interaction is present.
 
 **Videos of my results in Motility Induced Phase Separation:**
 
@@ -20,55 +20,52 @@ MIPS cluster dissolution [YouTube](https://youtube.com/shorts/m9tW2ULBz_s?featur
 **Voronoi tessellation of a MIPS cluster:**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/posts/20221018/fig2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/posts/20221018/fig2.png" alt="Voronoi tessellation of a motility-induced phase separation cluster" title="Voronoi tessellation of a MIPS cluster" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Voronoi tessellation
+    Voronoi tessellation of a dense MIPS cluster.
 </div>
 
 **Adjacency graph of a MIPS cluster:**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/posts/20221018/fig3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/posts/20221018/fig3.png" alt="Adjacency graph derived from a MIPS cluster" title="Adjacency graph of a MIPS cluster" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Adjacency matrix
+    Adjacency graph derived from the same particle configuration.
 </div>
 
 
 ## Introduction
-From [cytoskeletal filaments](https://en.wikipedia.org/wiki/Cytoskeleton) and bacterial aggregation to
-the [birds’ flock](https://en.wikipedia.org/wiki/Flocking_(behavior)) and fish school, biological agents consume energy from the environment to sustain different
-kinds of activities. The activity provides agents the capacity to have steady states
-away from the equilibrium. This capacity against the 
-[maximum entropy](https://en.wikipedia.org/wiki/Principle_of_maximum_entropy#:~:text=The%20principle%20of%20maximum%20entropy,proposition%20that%20expresses%20testable%20information).) is the key
-to understanding the mystery of why biological creatures can live for decades.
+From [cytoskeletal filaments](https://en.wikipedia.org/wiki/Cytoskeleton) and bacterial colonies to
+[bird flocks](https://en.wikipedia.org/wiki/Flocking_(behavior)) and fish schools, many biological systems consume
+energy from their surroundings to sustain organized motion. That continual energy input allows them to maintain
+non-equilibrium steady states rather than relaxing immediately toward equilibrium.
 
 One of the minimal models to study active matter is the active Brownian particles
 model (ABP model). In the ABP model, particles are colloidal spheres. Particles
 are governed by [Langevin’s equation](https://en.wikipedia.org/wiki/Langevin_equation) that particles can self-propel themselves by absorbing
 and converting energy from the environment. This is one of the simplest
-forms of activity, however, previous research has shown that simple activeness is
-enough to achieve steady non-equilibrium states in the system. Particles will aggregate
-into clusters without any presence of attracting mechanisms and this phenomenon
-is called motility-induced phase separation (MIPS).
+forms of activity; nevertheless, even this minimal ingredient is enough to produce rich non-equilibrium behavior.
+Particles can aggregate into clusters without any attractive mechanism, a phenomenon known as
+motility-induced phase separation (MIPS).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/posts/20221018/overprocess.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/posts/20221018/overprocess.png" alt="Stages in the formation of a MIPS cluster" title="Cluster formation in MIPS" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Process of the formation of cluster
+    Successive stages in the formation of a particle cluster.
 </div>
 
 
 
 
 ## Dynamics
-The over-damped Langevin's dynamics is given as
+The overdamped Langevin dynamics are given by
 
 <p style="text-align:center">
 $$
@@ -79,10 +76,10 @@ $$
 $$
 </p>
 
-Where $F_i=-{\nabla _r}\sum_j {V_j}\left( r_i \right) $ is the total force given by all the particles to the particle 
-$i$. $\vec{\hat n}$ is the self-propelling direction of the particle. $D$ is the transitional diffusion constant, $D_R$ 
-is the rotational diffusion constant. $\xi, \eta \sim \mathcal{N}(0,1)$ are independent stochastic variables under the 
-multidimensional Gaussian white noise.
+Here, $F_i=-{\nabla _r}\sum_j {V_j}\left( r_i \right)$ is the total force acting on particle
+$i$. $\vec{\hat n}$ is its self-propulsion direction, $D$ is the translational diffusion constant, and $D_R$
+is the rotational diffusion constant. The random variables $\xi, \eta \sim \mathcal{N}(0,1)$ represent independent
+Gaussian white noise terms.
 
 The potential is 
 <p style="text-align:center">
@@ -92,7 +89,7 @@ V(r)=4\varepsilon\left[\left(\frac{\sigma}{r}\right)^{12}-\left(\frac{\sigma}{r}
 $$
 </p>
 
-The under-damped dynamics is given as
+The underdamped dynamics are given by
 <p style="text-align:center">
 $$
 \left\{\begin{aligned}
@@ -111,9 +108,9 @@ The local density in the system can be studied by the [Voronoi Tessellation](htt
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/posts/20221018/voidistri2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/posts/20221018/voidistri2.png" alt="Bimodal density distribution in a MIPS system" title="Bimodal density distribution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Bimodal distribution of particles' density
+    Bimodal particle-density distribution associated with phase separation.
 </div>

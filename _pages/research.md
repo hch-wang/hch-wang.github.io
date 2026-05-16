@@ -1,11 +1,11 @@
 ---
 layout: page
-title: demos
-permalink: /demos/
-description: A growing collection of demos with many figures written for beginners looking to enter the field.
+title: projects
+permalink: /projects/
+description: Selected research projects and explanatory notes, organized for readers who want a quick way into the underlying ideas.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [research, essay]
 horizontal: false
 ---
 

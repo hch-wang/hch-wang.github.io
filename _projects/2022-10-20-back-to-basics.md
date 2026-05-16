@@ -1,71 +1,74 @@
 ---
 layout: page
-title: For Quasi-Enthusiasts - Three structures in Math
-description: An Attempt to Explain Mathematical structures to outsiders
+title: Three Structures in Mathematics
+description: An accessible introduction to order, transformation, and metric structure.
 img: assets/img/rabbit.svg
 importance: 9
-category: fun
+category: essay
 ---
 
 ## Summary
 
-Figure Source: [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/DDG/)
+Figure source: [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/DDG/)
 
-In this blog, we give several examples that can help illustrate mathematical structures in daily life.
+This essay introduces three recurring mathematical structures—order, transformation, and metric structure—through
+everyday examples. The goal is not to formalize every definition at once, but to show why mathematical structure
+matters in the first place.
 
-Mathematics is hard for people who are not aware of its subtlety. One of the reason is that most of mathematical
-objects encountered in the daily life have too many good structures. A common question addressed by the outsiders is
-that "why you study this?", "what is the purpose to study this?" and "why is this important?"
+Mathematics can feel abstract because many familiar objects already carry several useful structures at once. We often
+notice those structures only after removing one of them. In the same way that breathing usually fades into the
+background until it becomes difficult, the value of a mathematical property becomes clearer when we ask what is lost
+without it.
 
-**People may not be conscious of the goodness of something until they lost it.**
+Here are three simple structures that appear across large parts of mathematics:
 
-Just like you don't feel your breath and how important it is at most of the time. Or you don't really feel how
-fortune it is to be health until you get illness.
-
-In my point of view, to explain mathematics to the outsiders, it is important to illustrate the difficulty when
-the good properties are abandoned.
-
-Here are three simple mathematical structures of abstract objects:
 1. **Order**
 2. **Transformation**
 3. **Metric**
 
-which roughly correspond to the three main area in mathematics:
+They roughly correspond to three broad mathematical perspectives:
+
 1. **Analysis**
 2. **Algebra**
 3. **Geometry**
 
-Numbers are the most typical mathematics object which contains all these three structures in a very intuitive way.
-By Peano's Axioms, natural numbers are ordered in the sense of other numbers' successor. And this order structure
-is extended to the real number.
+Numbers are a familiar example because they carry all three kinds of structure at once. Natural numbers are ordered,
+they support transformations such as addition and multiplication, and they admit a notion of distance that extends
+naturally to the real line.
 
-## Order, a target of analysis
-Order structure are mainly studied by the [order theory](https://en.wikipedia.org/wiki/Order_theory).
-There are two useful concepts [total order](https://en.wikipedia.org/wiki/Total_order),
-[partial order](https://en.wikipedia.org/wiki/Partially_ordered_set)
-in the set theory.
-Order structure are investigated by using binary relations. The inequality $a<b$ is an intuitive examples.
-Also, $Z\subset R$ is another example.
+## Order, a Target of Analysis
 
-### Examples
-1. Alice is older than Bob, Charles is older than Bob, but we **don't know** information about the height between Alice and Charles.
-2. Your friend went a new restaurant and told you the food is good. How do you get the information about how would you feel about that restaurant?
-3. Consider the following concepts: big vs. small, red vs. blue. Why it isn't straight forward to compare two colors?
-4. When you say sun is brighter than a light bulb, what are you really trying to address?
-
-## Transformation, a goal of algebra
-Transformation structure studies what the outcome when apply an operation to an object. Basically, it studies the
-statement like $x\in M, y\in N, f: M \rightarrow N, f(x)=y$.
+Order structures are studied through [order theory](https://en.wikipedia.org/wiki/Order_theory). Two useful concepts
+are [total order](https://en.wikipedia.org/wiki/Total_order) and
+[partial order](https://en.wikipedia.org/wiki/Partially_ordered_set). Relations such as $a<b$ or
+$\mathbb{Z}\subset\mathbb{R}$ are basic examples.
 
 ### Examples
-1. Group Example: rubric cube
-2. Dynamics Example: Car moving, Earth orbit
-3. Storage in Computer: a finite field
-4. Switch of light, switch on make the light to the state on.
 
-## Distance, a playground of geometry
-Determine the distance between objects. The order or transformation structure don't contain the information about
-the geometrical relation between points.
+1. Alice is older than Bob, and Charles is older than Bob, but we do not know how Alice and Charles compare.
+2. A friend recommends a restaurant. What additional information would let you compare their taste with yours?
+3. It is straightforward to compare big and small objects. Why is it harder to compare red and blue objects?
+4. When we say that the Sun is brighter than a light bulb, which quantity are we actually comparing?
+
+## Transformation, a Goal of Algebra
+
+A transformation describes what happens when an operation acts on an object. In abstract form, one studies statements
+such as $x\in M$, $y\in N$, and $f:M\rightarrow N$ with $f(x)=y$.
 
 ### Examples
-Rotation of a ball is a ball
+
+1. The moves of a Rubik's Cube.
+2. The motion of a car or the orbit of Earth.
+3. Finite-field arithmetic in computer storage.
+4. A light switch that maps an input state to an output state.
+
+## Distance, a Playground of Geometry
+
+Metric structure records how far apart objects are. Order and transformation alone do not tell us whether two points
+are close, separated, or arranged along a curved path.
+
+### Examples
+
+1. Rotating a ball preserves the ball itself while changing the positions of individual points.
+2. A subway map may preserve connectivity while distorting the actual distances between stations.
+3. Two shapes can be topologically equivalent yet geometrically very different once distances are measured.
