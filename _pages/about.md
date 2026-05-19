@@ -29,7 +29,7 @@ Imperial College London on various topics in mathematical physics and geometric 
 
 Before that, I completed an MSc in Applied Mathematics at Imperial College London.
 I earned my undergraduate degree at the University of Toronto, where I completed the Mathematics and Physics Specialist program
-(an intensive double major), alongside an additional Major in Computer Science.
+(an intensive double major), alongside Computer Science as an additional third Major.
 
 During my study, I was privileged to be advised by
 [Prof. Boris Khesin](http://www.math.toronto.edu/khesin/) at University of Toronto,
