@@ -4,7 +4,7 @@ title: Golden Ratio and Vortices
 description: How vortex dynamics reveal bifurcations at golden-ratio thresholds.
 img: assets/img/posts/20221021/front.png
 importance: 1
-category: research
+category: Mathematical Physics
 ---
 ## Summary
 

@@ -4,7 +4,7 @@ title: Three Structures in Mathematics
 description: An accessible introduction to order, transformation, and metric structure.
 img: assets/img/rabbit.svg
 importance: 9
-category: essay
+category: Other
 ---
 
 ## Summary

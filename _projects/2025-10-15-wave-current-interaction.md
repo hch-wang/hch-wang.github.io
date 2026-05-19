@@ -4,7 +4,7 @@ title: Compound Burgers-KdV Solitons
 description: Refraction, reflection, and fusion in a coupled shallow-water model.
 img: assets/img/posts/20251015/waterfall_plot_combined.png
 importance: 1
-category: research
+category: Mathematical Physics
 ---
 
 # Burgers-swept KdV Equation: Soliton and Bore Interaction in Shallow Water

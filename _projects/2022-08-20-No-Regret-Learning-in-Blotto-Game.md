@@ -4,7 +4,7 @@ title: Regret Minimization in the Blotto Game
 description: "No-regret learning in a repeated resource-allocation game."
 img: assets/img/posts/20220820/line8.png
 importance: 3
-category: research
+category: Mathematical Physics
 mathjax: yes
 ---
 ## Summary

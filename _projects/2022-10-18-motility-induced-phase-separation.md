@@ -4,7 +4,7 @@ title: Motility-Induced Phase Separation
 description: How self-propelled particles aggregate without attractive forces.
 img: assets/img/posts/20221018/detail.png
 importance: 2
-category: research
+category: Mathematical Physics
 mathjax: yes
 ---
 ## Summary
