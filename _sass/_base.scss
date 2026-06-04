@@ -655,6 +655,24 @@ footer.sticky-bottom {
   }
 }
 
+// Demo gallery: a wider, less-crowded variant of the projects grid.
+
+.demo-wide {
+  .col {
+    padding-bottom: 1.5rem;
+  }
+
+  // Break out of the default content container on large screens so the
+  // cards have more room to breathe.
+  @media (min-width: 1200px) {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 92vw;
+    max-width: 1340px;
+  }
+}
+
 // Publications
 
 .publications {

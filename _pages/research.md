@@ -1,32 +1,17 @@
 ---
 layout: page
-title: projects
+title: demo
 permalink: /projects/
 description: Selected research projects and explanatory notes, organized for readers who want a quick way into the underlying ideas.
 nav: true
 nav_order: 3
 display_categories: ["Mathematical Physics", "Computer Science", "Other"]
 horizontal: false
-toc:
-  sidebar: right
 ---
 
 <!-- pages/projects.md -->
-<div class="projects">
+<div class="projects demo-wide">
 {% if site.enable_project_categories and page.display_categories %}
-  <div class="tag-category-list project-area-list">
-    <ul>
-      {% for category in page.display_categories %}
-        {% assign categorized_projects = site.projects | where: "category", category %}
-        {% if categorized_projects.size > 0 %}
-          <li>
-            <i class="fa-solid fa-tag fa-sm"></i>
-            <a href="#{{ category | slugify }}">{{ category }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
 
   <!-- Display categorized projects -->
 
