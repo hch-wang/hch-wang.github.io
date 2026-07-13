@@ -66,10 +66,11 @@
   position: relative;
   left: 50%;
   display: grid;
-  width: min(1320px, calc(100vw - 2rem));
+  width: calc(100vw - 2rem);
+  max-width: 1320px;
   transform: translateX(-50%);
   grid-template-columns: minmax(0, 900px) 9rem;
-  column-gap: clamp(2rem, 8vw, 7rem);
+  column-gap: 5rem;
 }
 
 .demo-layout-content {
