@@ -1,0 +1,67 @@
+/*****************************************************************************
+* Demo pages
+*****************************************************************************/
+
+.demo-page {
+  .demo-header {
+    margin-bottom: 1.25rem;
+  }
+
+  .demo-meta-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.75rem;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0.7rem 0.8rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    background-color: var(--global-card-bg-color);
+  }
+
+  .demo-meta-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+    line-height: 1.4;
+
+    i {
+      color: var(--global-theme-color);
+      font-size: 0.8rem;
+    }
+
+    time,
+    span:last-child {
+      color: var(--global-text-color);
+      font-weight: 500;
+    }
+  }
+
+  .demo-content {
+    h2 {
+      margin-top: 1.6rem;
+      margin-bottom: 0.8rem;
+      font-size: 1.35rem;
+    }
+
+    figure {
+      margin-bottom: 0.75rem;
+    }
+  }
+}
+
+.demo-toc-sidebar {
+  padding: 0.75rem 0 0.75rem 0.25rem;
+  border-left: 1px solid var(--global-divider-color);
+}
+
+@media (max-width: 767px) {
+  .demo-page {
+    .demo-meta-bar {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+}
