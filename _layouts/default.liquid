@@ -22,14 +22,7 @@
 
     <!-- Content -->
     <div class="container mt-5" role="main">
-      {% if page.layout == 'demo' and page.toc and page.toc.sidebar %}
-        <div class="demo-layout">
-          <div class="demo-layout-content">{{ content }}</div>
-          <aside class="demo-layout-toc">
-            <nav id="toc-sidebar" class="sticky-top demo-toc-sidebar"></nav>
-          </aside>
-        </div>
-      {% elsif page.toc and page.toc.sidebar %}
+      {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">
             <!-- main content area -->

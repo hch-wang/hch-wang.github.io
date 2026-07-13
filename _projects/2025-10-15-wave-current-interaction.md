@@ -2,7 +2,7 @@
 layout: demo
 title: Compound Burgers-KdV Solitons
 description: Refraction, reflection, and fusion in a coupled shallow-water model.
-img: assets/img/posts/20251015/waterfall_plot_combined.png
+img: assets/img/posts/20251015/highlight.png
 importance: 3
 category: Mathematical Physics
 last_updated_at: 2025-10-15
@@ -14,7 +14,7 @@ toc:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/posts/20251015/waterfall_plot_combined.png" alt="Compound Burgers-KdV soliton and bore interaction" title="Compound Burgers-KdV solitons" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/posts/20251015/highlight.png" alt="Compound Burgers-KdV soliton and bore interaction" title="Compound Burgers-KdV solitons" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 

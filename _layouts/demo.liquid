@@ -13,19 +13,23 @@ layout: default
       {% assign demo_readtime = 1 %}
     {% endif %}
 
-    <div class="demo-meta-line" aria-label="Document metadata">
+    <div class="demo-meta-bar" aria-label="Document metadata">
       {% if demo_updated_at %}
         <span class="demo-meta-item">
-          <span>Modified</span>
+          <i class="fa-regular fa-calendar-days"></i>
+          <span>Last updated</span>
           <time datetime="{{ demo_updated_at | date: '%Y-%m-%d' }}">{{ demo_updated_at | date: "%b %d, %Y" }}</time>
         </span>
       {% endif %}
       <span class="demo-meta-item">
-        <span>Read</span>
+        <i class="fa-regular fa-clock"></i>
+        <span>Read time</span>
         <span>{{ demo_readtime }} min</span>
       </span>
       {% if page.category %}
         <span class="demo-meta-item">
+          <i class="fa-solid fa-tag"></i>
+          <span>Area</span>
           <span>{{ page.category }}</span>
         </span>
       {% endif %}
