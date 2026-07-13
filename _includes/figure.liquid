@@ -1,4 +1,22 @@
-{% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
+{% assign figure_path = include.path | default: '' %}
+{% assign render_figure = true %}
+{% assign is_remote_figure = false %}
+{% if figure_path contains '://' %}
+  {% assign is_remote_figure = true %}
+{% endif %}
+
+{% if figure_path == blank %}
+  {% assign render_figure = false %}
+{% elsif is_remote_figure == false %}
+  {% capture figure_exists %}{% file_exists {{ figure_path }} %}{% endcapture %}
+  {% assign figure_exists = figure_exists | strip %}
+  {% unless figure_exists == 'true' %}
+    {% assign render_figure = false %}
+  {% endunless %}
+{% endif %}
+
+{% if render_figure %}
+{% assign img_path = figure_path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
 
 <figure
   {% if include.slot %}
@@ -24,7 +42,7 @@
       >
     {% endif %}
     <img
-      src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
+      src="{% if include.cache_bust %}{{ figure_path | relative_url | bust_file_cache }}{% else %}{{ figure_path | relative_url }}{% endif %}"
       {% if include.class %}
         class="{{ include.class }}"
       {% endif %}
@@ -76,3 +94,4 @@
     <figcaption class="caption">{{ include.caption }}</figcaption>
   {% endif %}
 </figure>
+{% endif %}
