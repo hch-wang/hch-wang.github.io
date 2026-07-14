@@ -62,6 +62,15 @@ $$
 
 The closure, turning-number $m$, and conserved-mass $C$ constraints reshape the full free-energy landscape.
 
+## Morphologies
+
+- **$N=0$ -- uniform:** no interfaces, but the loop may pay a global curvature-mismatch cost.
+- **$N=2$ -- acorn:** one interface pair; closure generally forces extra non-circular bending.
+- **$N=4$ -- peanut:** the smallest generic partition that can satisfy closure with alternating curvatures.
+- **$N\geq6$ -- polygon:** additional interfaces create higher-energy states that can remain metastable.
+
+{% include figure.liquid path="assets/img/posts/closure-curvature/paper_figure_3_morphologies.png" class="img-fluid rounded z-depth-1" alt="Free-energy minimizing circle, acorn, peanut, and polygon morphologies" caption="Paper Figure 3. Free-energy minimizers at alpha = 1024, beta = 20, epsilon = 0.05, kappa_0 = 3, and C = 0.43. Top: reconstructed loops colored by concentration c. Bottom: concentration c, curvature kappa, and metric g along the material coordinate sigma." zoomable=true loading="lazy" %}
+
 ## Free-Energy Landscape
 
 Geometric closure is not equivalent to imposing periodic boundary conditions on the fields. For the same material
@@ -76,12 +85,10 @@ local minima.
 
 {% include figure.liquid path="assets/img/posts/closure-curvature/poster_metastable_branches.png" class="img-fluid rounded z-depth-1" alt="Metastable branches for interface numbers zero, two, four, and six" caption="Metastable regions for the N = 0, 2, 4, and 6 branches across parameter space. Closure makes several branches coexist and cross." zoomable=true loading="lazy" %}
 
-## Morphologies
+The ground-state phase diagrams show how this branch competition selects the observed morphology. Increasing the
+interface width $\varepsilon$ raises the cost of interfaces and shifts the optimum toward smaller $N$.
 
-- **$N=0$ -- uniform:** no interfaces, but the loop may pay a global curvature-mismatch cost.
-- **$N=2$ -- acorn:** one interface pair; closure generally forces extra non-circular bending.
-- **$N=4$ -- peanut:** the smallest generic partition that can satisfy closure with alternating curvatures.
-- **$N\geq6$ -- polygon:** additional interfaces create higher-energy states that can remain metastable.
+{% include figure.liquid path="assets/img/posts/closure-curvature/paper_figure_5_phase_diagrams.png" class="img-fluid rounded z-depth-1" alt="Phase diagrams of minimizing morphologies in alpha and concentration parameter space" caption="Paper Figure 5. Minimizing morphologies in the (alpha, C) plane for epsilon = 0.05 and 0.15. Red and green boundaries delimit the N = 4 peanut and N = 2 acorn phases; the yellow region is the homogeneous N = 0 circle." zoomable=true loading="lazy" %}
 
 ## Coupled Dynamics
 
